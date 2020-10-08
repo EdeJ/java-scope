@@ -12,7 +12,7 @@ public class Phone {
     }
 
     public String getInternationalPhoneNumber() {
-         phoneNumber = "+31" + phoneNumber;
+         phoneNumber = "+31" + this.phoneNumber;
 
         return phoneNumber;
     }
